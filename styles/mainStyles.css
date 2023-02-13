@@ -1,0 +1,7 @@
+body{
+    /*Sample code so everything is going to be centered
+        adding padding-top might be needed */
+    display: grid;
+    align-items: center ;
+    justify-content: center;
+}
