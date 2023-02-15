@@ -16,26 +16,26 @@
             <form action="#">
                 <div class="input-group mb-3">
                     <span class="input-group-text"><i class="fa fa-user"></i></span>
-                    <input type="text" class="form-control" placeholder="First name" />
+                    <input name="firstName" type="text" class="form-control" placeholder="First name" />
                 </div>
                 <div class="input-group mb-3">
                     <span class="input-group-text"><i class="fa fa-user"></i></span>
-                    <input type="text" class="form-control" placeholder="Last name" />
+                    <input name="firstName" type="text" class="form-control" placeholder="Last name" />
                     </div>
                     <div class="input-group mb-3">
                     <span class="input-group-text"><i class="fa fa-envelope"></i></span>
-                    <input type="text" class="form-control" placeholder="Email" />
+                    <input name="email" type="text" class="form-control" placeholder="Email" />
                     </div>
                     <div class="input-group mb-3">
                     <span class="input-group-text"><i class="fa fa-lock"></i></span>
-                    <input type="password" class="form-control" placeholder="Password" />
+                    <input name="password" type="password" class="form-control" placeholder="Password" />
                     </div>
                     <div class="input-group mb-3">
                     <span class="input-group-text"><i class="fa fa-lock"></i></span>
-                    <input type="password" class="form-control" placeholder="Confirm Password" />
+                    <input name="passwordControl" type="password" class="form-control" placeholder="Confirm Password" />
                     </div>
                     <div class="d-grid text-center">
-                    <button type="button" class="btn btn-primary">Sign up</button>
+                    <button name="signUp" type="button" class="btn btn-primary">Sign up</button>
                     <p>When you register by clicking signup button, you agree to our <a href="">Terms and condition</a><a href="">Privacy policy</a></p>
                     <p>Already have an account ? <a href="logIn.php">Log in</a>
                     </p>
