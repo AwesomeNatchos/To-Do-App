@@ -28,11 +28,11 @@
                     </div>
                     <div class="input-group mb-3">
                     <span class="input-group-text"><i class="fa fa-lock"></i></span>
-                    <input type="text" class="form-control" placeholder="Password" />
+                    <input type="password" class="form-control" placeholder="Password" />
                     </div>
                     <div class="input-group mb-3">
                     <span class="input-group-text"><i class="fa fa-lock"></i></span>
-                    <input type="text" class="form-control" placeholder="Confirm Password" />
+                    <input type="password" class="form-control" placeholder="Confirm Password" />
                     </div>
                     <div class="d-grid text-center">
                     <button type="button" class="btn btn-primary">Sign up</button>
