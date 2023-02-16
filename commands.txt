@@ -1,0 +1,16 @@
+List on how to create a new branch and commit into the new branc
+
+1) pull most recent version from main branch
+2) create new brance --             git branch <branchName>
+3) checkout new branch --           git checkout <branchName> (if you only write branche, git will list out the branches for you)
+4) working (stage + commit) --      git add <filename(s)>
+                                    git commit -m "commit message you will add"
+5)chekout to main branc             
+
+
+How to merge two branches
+
+6) Pull
+7) Merge branch                     git merge <sourceBranch>  (you are standing in the desitatiion branch, and the source argument is the branch you merge into your current branch)
+8) Resovle conflicts(to update the main branche)  git merge --continue
+9) Push
